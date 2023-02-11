@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(/img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li{
+    margin-right: 45px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+article{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.pustota{
+    width: 100%;
+    height: 100px;
+}
+.text-container{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+.ab{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 110px;
+    height: 25px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+padding: 25px;
+border-radius: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
